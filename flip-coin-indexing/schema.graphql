@@ -1,0 +1,7 @@
+type BetPlacedEntity @entity {
+  id: ID!
+  user: Bytes!
+  bet: BigInt!
+  win: Boolean!
+  side: BigInt!
+}

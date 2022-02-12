@@ -1,3 +1,6 @@
+# TheGraph will generate Top Level Fields for Querying single Instances and Collections of Entity Type BestPlacedEntity
+# Each Type that should be an Entity needs the Annotations / Directive @entity
+# Entity BestPlacedEntity will be indexed by TheGraph
 type BetPlacedEntity @entity {
   id: ID!
   user: Bytes!
